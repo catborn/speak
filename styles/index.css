@@ -7,7 +7,7 @@
 .container {
   display: grid;
   justify-content: center;
-  background-color: lightgrey;
+  background-color: rgba(246, 246, 246, 0.803);
   margin-left: 10%;
   margin-right: 10%;
 }/*# sourceMappingURL=index.css.map */
