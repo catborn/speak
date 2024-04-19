@@ -46,6 +46,13 @@
   box-sizing: border-box;
 }
 
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
 .container {
   display: grid;
   justify-content: center;
