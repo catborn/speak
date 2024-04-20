@@ -42,6 +42,10 @@ button:hover {
   grid-template-columns: repeat(2,1fr);
 }
 
+.download {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
 
 .burger-menu {
   display: none;
