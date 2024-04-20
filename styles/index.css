@@ -68,7 +68,7 @@ h5,
 h6,
 button {
   font-family: "Inter-Bold", sans-serif;
-  color: #0E0E0F;
+  color: #0e0e0f;
 }
 
 button:hover {
@@ -163,7 +163,7 @@ a {
 
 .download {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 50px;
   margin-top: 140px;
 }
@@ -188,7 +188,7 @@ a {
 }
 
 .download__info-logo-title {
-  color: #00B9B6;
+  color: #00b9b6;
   font-family: "Inter-SemiBold";
 }
 
@@ -325,8 +325,6 @@ a {
        column-gap: 10px;
   line-height: 22px;
   margin-bottom: 120px;
-  line-height: 22px;
-  margin-bottom: 120px;
 }
 
 .article__title-second {
@@ -343,15 +341,12 @@ a {
   font-size: 16px;
   margin-bottom: 12px;
   margin-top: 12px;
-  margin-bottom: 12px;
-  margin-top: 12px;
 }
 
 #article__list li {
   list-style-position: inside;
   list-style-type: disc;
   font-size: 16px;
-  gap: 5px;
   gap: 5px;
 }
 
@@ -363,7 +358,6 @@ a {
   grid-template-rows: 1fr 1fr;
   padding: 70px 10% 70px 10%;
   background-color: #ffffff;
-  background-size: cover;
   background-size: cover;
   color: #333333;
   font-family: Inter-Medium;
