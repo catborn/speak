@@ -84,13 +84,8 @@ a {
 
 .container {
   max-width: 1236px;
-<<<<<<< HEAD
   margin-left: 10%;
   margin-right: 10%;
-=======
-  padding-left: 15%;
-  padding-right: 15%;
->>>>>>> 218fa70 (footer)
 }
 
 .nav {
