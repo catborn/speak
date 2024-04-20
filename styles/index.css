@@ -317,12 +317,9 @@ a {
 }
 
 .container__article {
-  height: -moz-max-content;
   height: max-content;
-  -moz-column-count: 2;
-       column-count: 2;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-count: 2;
+  column-gap: 10px;
   line-height: 22px;
   margin-bottom: 120px;
 }
@@ -425,4 +422,5 @@ a {
 
 .footer__contacts-img {
   margin-right: 10px;
-}/*# sourceMappingURL=index.css.map */
+}
+/*# sourceMappingURL=index.css.map */
