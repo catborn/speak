@@ -45,7 +45,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter-Light";
+  font-family: "Inter-Regular";
 }
 
 body {
@@ -84,8 +84,13 @@ a {
 
 .container {
   max-width: 1236px;
+<<<<<<< HEAD
   margin-left: 10%;
   margin-right: 10%;
+=======
+  padding-left: 15%;
+  padding-right: 15%;
+>>>>>>> 218fa70 (footer)
 }
 
 .nav {
@@ -125,7 +130,7 @@ a {
 
 .header__btn {
   background-color: #06c2b1;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 15px;
   border: none;
 }
@@ -152,7 +157,7 @@ a {
 }
 
 .header__main-descr {
-  color: #00B9B6;
+  color: #00b9b6;
   font-size: 18px;
 }
 
@@ -315,27 +320,25 @@ a {
 .container__article {
   height: -moz-max-content;
   height: max-content;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  justify-content: start;
+  -moz-column-count: 2;
+       column-count: 2;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
 
 .article__title-second {
-  font-family: "Inter-Bold";
   font-size: 20px;
   line-height: 24px;
+  margin-bottom: 24px;
 }
 
 .article__text {
-  font-family: "Inter-Regular";
   font-size: 16px;
 }
 
 #article__list li {
   list-style-position: inside;
   list-style-type: disc;
-  font-family: "Inter-Regular";
   font-size: 16px;
 }
 
@@ -348,7 +351,7 @@ a {
   padding: 70px 0px 70px 0px;
   justify-content: space-between;
   background-size: cover;
-  background-color: white;
+  background-color: #ffffff;
   color: #333333;
   font-family: Inter-Medium;
   font-size: 18px;
