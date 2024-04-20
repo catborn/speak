@@ -209,6 +209,38 @@ a {
   display: none;
 }
 
+.psy h2 {
+  text-align: center;
+}
+
+.psy__tags1,
+.psy__tags2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.psy__buttons {
+  height: 42px;
+  border: 0;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 7px;
+  background-color: transparent;
+  font-family: Inter-Light;
+}
+
+.psy__buttons:hover {
+  transform: scale(1.1);
+  color: #00b9b6;
+}
+
+#more {
+  background-color: #00b9b6;
+  color: #ffffff;
+}
+
 .part4 {
   display: grid;
 }
