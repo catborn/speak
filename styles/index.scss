@@ -171,15 +171,16 @@ a {
   display: none;
 }
 
-//part3 psyhologists
+//part3 psyсhologists
 
 .psy h2 {
   text-align: center;
+  padding: 2%;
 }
 .psy__tags1,
 .psy__tags2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 10px;
 }
 
@@ -187,9 +188,10 @@ a {
   // width: 267px;
   height: 42px;
   border: 0;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin: 7px;
   background-color: transparent;
   font-family: Inter-Light;
@@ -205,6 +207,7 @@ a {
   color: $mainColor;
 }
 
+// end part3
 .part4 {
   display: grid;
 }
