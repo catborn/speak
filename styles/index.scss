@@ -47,7 +47,7 @@ button:hover {
 .nav {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  padding-top: 30px;
+  padding: 30px;
 }
 
 .nav__list {
@@ -119,7 +119,7 @@ button:hover {
 
 .download {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns:repeat(2,1fr);
   gap: 50px;
   margin-top: 140px;
   max-height: 350px;
