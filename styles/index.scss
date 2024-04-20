@@ -171,6 +171,40 @@ a {
   display: none;
 }
 
+//part3 psyhologists
+
+.psy h2 {
+  text-align: center;
+}
+.psy__tags1,
+.psy__tags2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.psy__buttons {
+  // width: 267px;
+  height: 42px;
+  border: 0;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 7px;
+  background-color: transparent;
+  font-family: Inter-Light;
+}
+
+.psy__buttons:hover {
+  transform: scale(1.1);
+  color: $infoText;
+}
+
+#more {
+  background-color: $infoText;
+  color: $mainColor;
+}
+
 .part4 {
   display: grid;
 }
