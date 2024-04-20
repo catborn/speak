@@ -44,6 +44,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter-Light";
+}
+
+body {
+  background-color: #eef8fb;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Inter-Bold", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 ul,
@@ -54,11 +81,94 @@ a {
 }
 
 .container {
-  display: grid;
-  justify-content: center;
-  background-color: rgba(246, 246, 246, 0.803);
+  // display: grid;
+  // justify-content: center;
+  max-width: 1236px;
   padding-left: 15%;
   padding-right: 15%;
+  font-family: "Inter-ExtraBold";
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  padding: 30px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav__list-item {
+  font-size: 18px;
+}
+
+.header__act {
+  display: flex;
+  gap: 20px;
+}
+
+.header__act-language {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.header__act-form {
+  background-color: transparent;
+  border: none;
+  font-family: "Inter-Medium";
+  font-size: 18px;
+}
+
+.header__btn {
+  background-color: #06c2b1;
+  color: #FFFFFF;
+  border-radius: 15px;
+  border: none;
+}
+
+.header__registration {
+  padding: 12px 30px;
+  font-size: 14px;
+}
+
+.header__main-btn {
+  margin-top: 50px;
+  padding: 12px 30px 14px 30px;
+  font-size: 18px;
+}
+
+.header__main {
+  display: grid;
+  grid-template-columns: 46% 54%;
+  margin-top: 80px;
+}
+
+.header__main-info {
+  padding-top: 30px;
+}
+
+.header__main-descr {
+  color: #00B9B6;
+  font-size: 18px;
+}
+
+.header__main-title {
+  font-size: 48px;
+}
+
+.download {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 140px;
+}
+
+.burger-menu {
+  display: none;
 }
 
 .part4 {
