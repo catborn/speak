@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter-Light";
+  font-family: "Inter-Regular";
 }
 
 body {
@@ -47,7 +47,6 @@ a {
   max-width: 1236px;
   padding-left: 15%;
   padding-right: 15%;
-  font-family: "Inter-ExtraBold";
 }
 
 .nav {
@@ -124,7 +123,8 @@ a {
 
 .download {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
   margin-top: 140px;
 }
 
@@ -237,27 +237,26 @@ a {
 
 .container__article {
   height: max-content;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  justify-content: start;
+  column-count: 2;
+  column-gap: 10px;
+  // grid-template-columns: 1fr 1fr;
+  // grid-template-rows: auto;
+  // gap: 30px;
 }
 
 .article__title-second {
-  font-family: "Inter-Bold";
   font-size: 20px;
   line-height: 24px;
+  margin-bottom: 24px;
 }
 
 .article__text {
-  font-family: "Inter-Regular";
   font-size: 16px;
 }
 
 #article__list li {
   list-style-position: inside;
   list-style-type: disc;
-  font-family: "Inter-Regular";
   font-size: 16px;
 }
 
@@ -270,7 +269,7 @@ a {
   padding: 70px 0px 70px 0px;
   justify-content: space-between;
   background-size: cover;
-  background-color: white;
+  background-color: $mainColor;
   color: $textColor;
   font-family: Inter-Medium;
   font-size: 18px;
