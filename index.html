@@ -5,20 +5,201 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Speak</title>
+  <link rel="icon" href="./images/fav.svg" type="image/svg">
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/index.css">
 </head>
 
 <body>
   <div class="container">
-    <header>header</header>
+    <header class="header__container">
+      <nav class="nav">
+        <img class="header__logo" src="./images/logo.svg" alt="logo">
+        <ul class="nav__list">
+          <li class="nav__list-item"><a href="#" class="nav__list-item">About us</a></li>
+          <li class="nav__list-item"><a href="#" class="nav__list-item">Blog</a></li>
+          <li class="nav__list-item"><a href="#" class="nav__list-item">Contact</a></li>
+        </ul>
+        <div class="header__act">
+          <div class="header__act-language">
+            <img src="./images/flags.svg" alt="en">
+            <form action="#">
+              <label for="lang"></label>
+              <select name="language" id="lang" class="header__act-form">
+                <option value="en" selected>EN</option>
+                <option value="ru">RU</option>
+              </select>
+            </form>
+          </div>
+          <button class="header__btn header__registration">Войти</button>
+        </div>
+        <div class="header__adaptive">
+          <button class="header__btn header__adaptive-btn">Начать беседу</button>
+          <img src="./images/flags.svg" alt="en">
+          <div class="burger-menu">
+            <div class="bar"></div>
+            <div class="bar bar-middle"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
+      <div class="header__main">
+        <div class="header__main-info">
+          <p class="header__main-descr">+300 прошедших отбор психологов</p>
+          <h1 class="header__main-title">Сессии с психологом Онлайн</h1>
+          <button class="header__btn header__main-btn">Начать беседу</button>
+        </div>
+        <picture>
+          <source media="(max-width:1024px)" srcset="./images/header__main-pic-1024.png">
+          <source media="(max-width:768px)" srcset="./images/header__main-pic-768.png">
+          <source media="(max-width:360px)" srcset="./images/header__main-pic-360.png">
+          <img class="header__main-pic" src="./images/header__main-pic.png">
+        </picture>
+      </div>
+    </header>
     <main>
+
+      <section class="download">
+        <div class="download__video">
+          <a href="#"><img src="./images/video.png" alt="video" class="download__video-tag"></a>
+        </div>
+        <div class="download__info">
+          <h2 class="download__info-title"> Скачайте бесплатно приложение SPEAK</h2>
+          <div class="download__info-logо">
+            <img class="download__info-logo-pic" src="./images/littlelogo.png" alt="logo">
+            <div class="download__info-logo-text">
+              <h3 class="download__info-logo-title">SPEAK</h3>
+              <p class="download__info-logo-descr">онлайн сессии с психологом доступно для iOS и Android</p>
+            </div>
+          </div>
+          <div class="download__links">
+            <a href="https://www.apple.com/app-store/" class="download__links-ios" target="_blank"><img src="./images/appstore.png" alt="appstore" class="download__links-ios"></a>
+            <a href="https://play.google.com/store/apps?hl=en&gl=US&pli=1" class="download__links-android" target="_blank"><img src="./images/playstore.png" alt="playstore" class="download__links-android"></a>
+          </div>
+        </div>
+      </section>
+
+      <div class="psy">
+        <h2>Психологи работающие с актуальными темами</h2>
+        <div class="psy__tags1">
+          <button class="psy__buttons">Чувства</button>
+          <button class="psy__buttons">Одиночество</button>
+          <button class="psy__buttons">Вредные привычки</button>
+          <button class="psy__buttons">Отношения</button>
+          <button class="psy__buttons">Работа</button>
+          <button class="psy__buttons">Смыслы</button>
+        </div>
+        <div class="psy__tags2">
+          <button class="psy__buttons">Одиночество</button>
+          <button class="psy__buttons">Одиночество</button>
+          <button class="psy__buttons">Отношения с близкими</button>
+          <button class="psy__buttons" id="more">+ 300 психологов</button>
+        </div>
+        <div class="psy__slider">
+          <div class="psy__slide">
+            <img class="psy__img" src="./images/psy1.png" alt="" srcset="">
+            <p>Илья Благов</p>
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img class="slide__right" src="./images/arrow_right.svg" alt="">
+          </div>
+          <div class="psy__slide">
+            <img class="psy__img" src="./images/psy2.png" alt="">
+            <p>Иванна Есина</p>
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img class="slide__right" src="./images/arrow_right.svg" alt="">
+          </div>
+          <div class="psy__slide">
+            <img class="psy__img" src="./images/psy3.png" alt="">
+            <p>Артур Островский</p>
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img class="slide__right" src="./images/arrow_right.svg" alt="">
+          </div>
+          <div class="psy__slide">
+            <img class="psy__img" src="./images/psy4.png" alt="">
+            <p>Юля Заграничная</p>
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img class="slide__right" src="./images/arrow_right.svg" alt="">
+          </div>
+          <div class="psy__slide">
+            <img class="psy__img" src="./images/psy5.png" alt="">
+            <p>Андрей Ян</p>
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img src="./images/star.svg" alt="">
+            <img class="slide__right" src="./images/arrow_right.svg" alt="">
+          </div>
+        </div>
+        <div class="psy__dots">
+          <button class="button__dot"><img src="./images/dot.svg" alt=""></button>
+          <button class="button__dot"><img src="./images/dot.svg" alt=""></button>
+          <button class="button__dot"><img src="./images/dotbig.svg" alt=""></button>
+          <button class="button__dot"><img src="./images/dot.svg" alt=""></button>
+          <button class="button__dot"><img src="./images/dot.svg" alt=""></button>
+        </div>
+      </div>
+
+      <div class="help">
+        <div class="help__you">
+          <div class="help__you-first">
+            <h2>Поможем вам</h2>
+            <div class="help__you-list"> <img src="./images/icon_check.svg" alt="check">Разрешить причины сложных отношений с партнером</div>
+            <div class="help__you-list"> <img src="./images/icon_check.svg" alt="check">Снять или снизить остроту переживаний</div>
+            <div class="help__you-list"> <img src="./images/icon_check.svg" alt="check">Справиться с выгоранием на работе и найти мотивацию</div>
+            <div class="help__you-list"> <img src="./images/icon_check.svg" alt="check">Понять себя в отношениях с близкими людьми</div>
+            <div class="help__you-list"> <img src="./images/icon_check.svg" alt="check">Найти себя и понимать свои желания</div>
+            <div class="help__you-list"> <img src="./images/icon_check.svg" alt="check">Исследовать и управлять изменениями в своей жизни</div>
+          </div>
+          <div class="help__you-second">
+            <img src="./images/help_you.png" alt="help_you">
+          </div>
+        </div>
+        <div class="help__telephone">
+          <img src="./images/help__background.png" alt="help__background">
+          <div class="help__telephone-first">
+            <img src="./images/help_mobile.png" alt="help__mobile">
+          </div>
+          <div class="help__telephone-second">
+            <h2>Преимущества онлайн сессий с психологом</h2>
+            <div class="help__telephone-title"> <img src="./images/help_bullet.svg" alt="bullet">Занимайтесь где и как удобно</div>
+            <div class="help__telephone-text">Дома или в поездке и в любом часовом поясе</div>
+            <div class="help__telephone-title"> <img src="./images/help_bullet.svg" alt="bullet">Меньше забот- больше мотивации</div>
+            <div class="help__telephone-text">Не тратьте время на дорогу и управляйте занятиями в два клика</div>
+            <div class="help__telephone-title"> <img src="./images/help_bullet.svg" alt="bullet">Доверяйте себе</div>
+            <div class="help__telephone-text">Выбирайте среди проверенных психологов, которые специаллизируются на ваших запросах</div>
+          </div>
+
+        </div>
+
+      </div>
+
       <div class="part4">
         <div class="aboutService">
           <div class="aboutService__title">О сервисе</div>
+
             <div class="aboutService__video">
             <a href="#"><img src="./images/video.png" alt="video" class="video-tag"></a>
           </div>
+          <div class="aboutService__button"><button><img src="./images/video.png" alt="video"
+                class="buttonImg"></button></div>
+
           <div class="aboutService__text">
             <div class="aboutService__card1">
               <div class="card_figure">900 +</div>
@@ -60,16 +241,18 @@
           </div>
           <div class="howitWorks__card3">
             <div class="card_title"><img src="./images/num3.png" alt="num3">Выберите способ связи с психологом</div>
-            <div class="card_text">49руб/мин по аудио/видео связи 
+            <div class="card_text">49руб/мин по аудио/видео связи
               200руб за 24 часа чата + аудио сообщения </div>
           </div>
           <div class="howitWorks__card4">
             <div class="card_title"><img src="./images/num4.png" alt="num4">Начните общение</div>
-            <div class="card_text">Все общение происходит через платформу SPEAK. Вслучае если психолог вам не понравится, вы можете заменить его без дополнительных переплат</div>
+            <div class="card_text">Все общение происходит через платформу SPEAK. Вслучае если психолог вам не
+              понравится, вы можете заменить его без дополнительных переплат</div>
           </div>
           <div class="howitWorks__photo"><img src="./images/Mobile.png" alt="Mobile"></div>
           <div class="howitWorks__button"><button class="button_start">Начать общение</button></div>
         </div>
+
         <div class="services">
           <div class="services__title">Услуги</div>
           <div class="services__card1">
@@ -86,12 +269,181 @@
             <div class="services__card1_text"><img src="" alt="">Аудио/Видео звонки</div>
             <div class="services__card1_text"><img src="" alt="">Нет лимитов по времени разговора</div>
             <div class="services__card_button"><button>Перейти</button></div>
+
           </div>
         </div>
       </div>
+
+      <section class="download download__extra">
+        <div class="download__info download__extra-info">
+          <h2 class="download__info-title"> Скачайте бесплатно приложение SPEAK</h2>
+          <div class="download__info-logо">
+            <img class="download__info-logo-pic" src="./images/littlelogo.png" alt="logo">
+            <div class="download__info-logo-text">
+              <h3 class="download__info-logo-title">SPEAK</h3>
+              <p class="download__info-logo-descr">онлайн сессии с психологом доступно для iOS и Android</p>
+            </div>
+          </div>
+          <div class="download__links">
+            <a href="https://www.apple.com/app-store/" class="download__links-ios" target="_blank"><img src="./images/appstore.png" alt="appstore"></a>
+            <a href="https://play.google.com/store/apps?hl=en&gl=US&pli=1" class="download__links-android" target="_blank"><img src="./images/playstore.png" alt="playstore"></a>
+          </div>
+        </div>
+        <div class="download__screen">
+          <img src="./images/phone_p.png" alt="video" class="download__screen-img">
+        </div>
+      </section>
+
+      <div class="reviews">
+        <h2>Отзывы</h2>
+        <div class="reviews__slider">
+
+        </div>
+        <div class="psy__dots">
+          <button class="button__dot"><img src="./images/dot.svg" alt=""></button>
+          <button class="button__dot"><img src="./images/dot.svg" alt=""></button>
+          <button class="button__dot"><img src="./images/dotbig.svg" alt=""></button>
+          <button class="button__dot"><img src="./images/dot.svg" alt=""></button>
+          <button class="button__dot"><img src="./images/dot.svg" alt=""></button>
+        </div>
+      </div>
+
+      <div class="article">
+        <h1 class="article__title">Детский психолог онлайн</h1>
+        <div class="container__article">
+          <h2 class="article__title-second">Чем поможет детский психолог онлайн?</h2>
+          <p class="article__text">Каждый родитель хочет, чтобы его ребенок рос сильной уравновешенной личностью. Мы
+            понимаем, что именно в детстве
+            формируются зачатки характера. Как справиться с возникающими проблемами, как выстроить отношения с
+            ребенком,
+            чтобы он
+            доверял вам? На эти и другие вопросы поможет ответить детский психолог онлайн.</p>
+          <h2 class="article__title-second">Преимущества онлайн-консультации детского психолога</h2>
+          <p class="article__text">Главный плюс сеанса в таком формате - экономия времени. Вам не придется тратить
+            время
+            на дорогу и долгие сборы.
+            Все, что нужно – компьютер или смартфон, микрофон и блокнот с ручкой, чтобы записывать важную
+            информацию.
+            Если вам или ребенку тяжело общаться с незнакомым человеком лично, онлайн-связь в этом случае упростит
+            дело.
+          </p>
+          <h2 class="article__title-second">Когда нужна помощь детского психолога онлайн?</h2>
+          <p class="article__text">Онлайн-консультация детского психолога может быть полезна, если у вас есть
+            вопросы
+            по
+            таким темам, как:</p>
+          <ul id="article__list">
+            <li>Плохая успеваемость;</li>
+            <li>Стеснительность;</li>
+            <li>Цифровая зависимость;</li>
+            <li>Агрессия;</li>
+            <li>Потеря близкого в семье;</li>
+            <li>Возрастной кризис;</li>
+            <li>Подготовка к детскому саду или школе;</li>
+            <li>Профориентация;</li>
+          </ul>
+          <p class="article__text">Это лишь часть тем, которые можно затронуть. Помните, что, если возникает
+            ситуация,
+            в
+            которой вы самостоятельно не можете
+            разобраться, сейчас консультация детского психолога онлайн поможет найти ответы.</p>
+          <h2 class="article__title-second">Как проходит онлайн-консультация детского психолога?</h2>
+          <p class="article__text">Задать вопрос детскому психологу онлайн может как сам ребенок, так и родитель.
+          </p>
+          <p class="article__text">На первом сеансе обычно присутствует родитель или опекун, а также сам «виновник
+            торжества». Следующие сеансы могут быть и
+            без взрослого, если ребенок сам в состоянии связаться через интернет.</p>
+          <p class="article__text">Бывает и так, что сначала ребенку присутствовать необязательно. В этом случае
+            работа
+            происходит с родителем, а если есть
+            необходимость, позже присоединяется ребенок.</p>
+          <p class="article__text">Психолог по детским вопросам онлайн может попросить ребенка нарисовать что-то,
+            далее
+            по этим рисункам он проведет
+            диагностику. Родитель тоже является звеном связи с психикой ребенка. Через него психолог может сделать
+            вывод
+            о том,
+            какая проблема сейчас назрела.</p>
+          <p class="article__text">Если специалист попросит вас пройти обследование или сдать анализы для более
+            ясной
+            картины, не пугайтесь, это нормально.
+            Таким образом, вы оба сможете исключить какие-либо диагнозы.</p>
+          <h2 class="article__title-second">О чем поговорить с детским психологом?</h2>
+          <p class="article__text">Родители малышей часто обращаются с вопросами об адаптации в детском саду. Есть
+            тревожные мамы, которые сомневаются,
+            стоит ли отдавать малыша в сад или же пока слишком рано. Очень многих волнует, что воспитатель будет
+            срываться на ребенка.
+            Это логично, ведь в силу того, что в СМИ регулярно появляются жуткие новости о чудовищных ЧП в детсадах,
+            беспокойство
+            обосновано.</p>
+          <p class="article__text">Отдельный вопрос подготовки к саду. В интернете полно информации в таком ключе:
+            «ребенок должен научиться самостоятельно
+            есть, ходить в туалет и засыпать сам перед тем, как идти в сад». Особо мнительные беспрекословно верят,
+            другие понимают:
+            ребенок ничего никому не должен. Его невозможно научить чему-то, пока он сам не захочет делать это.
+            «Дрессировке» малыши
+            не поддаются. Но пугаться не стоит, в любом случае, воспитатели будут помогать малышам в этих вопросах.
+            Главное –
+            настроиться на позитив и верить в хорошее.</p>
+          <p class="article__text">Дети постарше сталкиваются с проблемами переходного возраста, неуверенностью в
+            себе,
+            безответной любовью и другими.
+            Если вы понимаете, что вам с чадом необходима онлайн-консультация, вы можете выбрать специалиста на
+            нашем
+            сайте.</p>
+        </div>
+      </div>
     </main>
-    <footer>footer</footer>
   </div>
+  <footer class="footer">
+    <div class="container__footer">
+      <div class="footer__section">
+        <div class="footer__title"> <img src="./images/logo.svg" alt="logo"></div>
+      </div>
+      <div class="footer__section">
+        <ul class="footer__menu">
+          <li class="footer__menu-link"><a class="link" href="#">Home</a></li>
+          <li class="footer__menu-link"><a class="link" href="#">Blog</a></li>
+          <li class="footer__menu-link"><a class="link" href="#">Privacy Policy</a></li>
+          <li class="footer__menu-link"><a class="link" href="#">About us</a></li>
+          <li class="footer__menu-link"><a class="link" href="#">Contact</a></li>
+          <li class="footer__menu-link"><a class="link" href="#">Terms and Conditions</a></li>
+        </ul>
+      </div>
+      <div class="footer__section">
+        <div class="footer__social">
+          <a class="link" href="#">
+            <img class="footer__social-img" src="./images/icon_facebook.svg" alt="logo-facebook">
+          </a>
+          <a class="link" href="#">
+            <img class="footer__social-img" src="./images/icon_instagram.svg" alt="logo-instagram">
+          </a>
+          <a class="link" href="#">
+            <img class="footer__social-img" src="./images/icon_linkedin.svg" alt="logo-linkedin">
+          </a>
+          <a class="link" href="#">
+            <img class="footer__social-img" src="./images/icon_twitter.svg" alt="logo-twitter">
+          </a>
+        </div>
+      </div>
+      <div class="footer__section">
+        <div class="footer__contacts">
+          <div class="footer__contacts_email">
+            <a class="link" href="#">
+              <img class="footer__contacts-img" src="./images/icon_mail.svg" alt="icon_mail">
+              info@speak.help
+            </a>
+          </div>
+          <div class="footer__contacts_adress">
+            <a class="link" href="#">
+              <img class="footer__contacts-img" src="./images/icon_adress.svg" alt="icon_adress">
+              33 W 60th Street, 8th FI New York, NY 10023
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
