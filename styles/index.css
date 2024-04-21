@@ -570,6 +570,10 @@ a {
     justify-content: space-between;
     align-items: center;
   }
+  .header__logo {
+    max-width: 92px;
+    height: 18px;
+  }
   .header__adaptive {
     display: flex;
     gap: 20px;
@@ -596,6 +600,9 @@ a {
   form {
     display: none;
   }
+  .header__main-title {
+    font-size: 32px;
+  }
   .download {
     display: flex;
     flex-direction: column;
@@ -610,6 +617,9 @@ a {
   .download__screen-img {
     max-width: 294px;
     max-height: 320px;
+  }
+  .download__info-title {
+    font-size: 28px;
   }
   .container__article {
     margin-bottom: 120px;
