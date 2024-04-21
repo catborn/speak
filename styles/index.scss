@@ -254,7 +254,7 @@ a {
   background-color: transparent;
 }
 
-.download__scree-img {
+.download__screen-img {
   max-width: 450px;
   max-height: 500px;
 }
@@ -499,6 +499,15 @@ a {
     max-width:946px;
   }
 
+  .download__video-tag {
+    max-width: 530px;
+  }
+
+  .download__screen-img {
+    max-width: 380px;
+    max-height: 416px;
+  }
+
   .footer {
     height: 284px;
     padding: 50px 0px 50px 0px;
@@ -521,6 +530,10 @@ a {
 }
 
 @media all and (max-width: 768px) {
+
+  .container {
+    max-width: 688px;
+  }
 
   .nav__list, .header__act {
     display: none;
@@ -578,6 +591,11 @@ a {
     margin-top: 140px;
   }
 
+  .download__screen-img {
+    max-width: 294px;
+    max-height: 320px;
+  }
+
   .container__article {
     margin-bottom: 120px;
     column-count: 1;
@@ -599,6 +617,23 @@ a {
 }
 
 @media all and (max-width: 360px) {
+
+  .container {
+    max-width: 320px;
+  }
+
+  .header__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download__extra {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
   .article__title {
     margin-bottom: 30px;
     font-size: 24px;
@@ -639,3 +674,4 @@ a {
     line-height: 21px;
   }
 }
+
