@@ -172,7 +172,6 @@ a {
 }
 
 //part3 psyсhologists
-
 .psy h2 {
   text-align: center;
   padding: 2%;
@@ -185,7 +184,6 @@ a {
 }
 
 .psy__buttons {
-  // width: 267px;
   height: 42px;
   border: 0;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
@@ -207,6 +205,37 @@ a {
   color: $mainColor;
 }
 
+.psy__slider {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.psy__slide {
+  font-family: "Inter-Bold", sans-serif;
+}
+
+.psy__img {
+  width: 178px;
+  height: 178px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.slide__right {
+  padding-left: 90px;
+}
+
+.psy__dots {
+  display: flex;
+  justify-content: center;
+}
+
+.button__dot {
+  border: 0;
+  padding: 5px;
+  background-color: transparent;
+}
 // end part3
 .part4 {
   display: grid;
