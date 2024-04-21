@@ -243,6 +243,38 @@ a {
   color: #ffffff;
 }
 
+.psy__slider {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.psy__slide {
+  font-family: "Inter-Bold", sans-serif;
+}
+
+.psy__img {
+  width: 178px;
+  height: 178px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.slide__right {
+  padding-left: 90px;
+}
+
+.psy__dots {
+  display: flex;
+  justify-content: center;
+}
+
+.button__dot {
+  border: 0;
+  padding: 5px;
+  background-color: transparent;
+}
+
 .part4 {
   display: grid;
 }
