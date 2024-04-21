@@ -309,6 +309,28 @@ a {
   padding-top: 0;
 }
 
+.help__you {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-top: 158px;
+}
+
+.help__you-first {
+  display: grid;
+  grid-column: 1/2;
+  max-height: 308px;
+}
+
+.help__you-second {
+  display: grid;
+  grid-column: 2/3;
+}
+
+.help__you-second {
+  display: flex;
+  flex-direction: center;
+}
+
 .part4 {
   display: grid;
 }
