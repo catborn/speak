@@ -83,9 +83,9 @@ a {
 }
 
 .container {
-  max-width: 1236px;
-  margin-left: 10%;
-  margin-right: 10%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-left: 2%;
 }
 
 .nav {
@@ -103,6 +103,10 @@ a {
 
 .nav__list-item {
   font-size: 18px;
+}
+
+.nav__list-item:hover {
+  color: #00b9b6;
 }
 
 .header__act {
@@ -124,10 +128,18 @@ a {
 }
 
 .header__btn {
-  background-color: #06c2b1;
-  color: #ffffff;
   border-radius: 15px;
   border: none;
+  background-color: #06c2b1;
+  color: #ffffff;
+}
+
+.header__btn:hover {
+  background-color: #00b9b6;
+}
+
+.header__btn:active {
+  background-color: #00b9b6;
 }
 
 .header__registration {
@@ -136,7 +148,7 @@ a {
 }
 
 .header__main-btn {
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 12px 30px 14px 30px;
   font-size: 18px;
 }
@@ -163,8 +175,8 @@ a {
 
 .download {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
   margin-top: 140px;
 }
 
@@ -183,8 +195,14 @@ a {
   grid-template-columns: 20% 80%;
   gap: 20px;
   justify-items: center;
-  align-items: center;
   margin-top: 16px;
+  justify-content: center;
+  max-width: 350px;
+}
+
+.download__info-logo-pic {
+  width: 100px;
+  height: 90px;
 }
 
 .download__info-logo-title {
@@ -273,6 +291,22 @@ a {
   border: 0;
   padding: 5px;
   background-color: transparent;
+}
+
+.download__scree-img {
+  max-width: 450px;
+  max-height: 500px;
+}
+
+.download__extra {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 150px;
+}
+
+.download__extra-info {
+  padding-bottom: 100px;
+  padding-top: 0;
 }
 
 .part4 {
@@ -497,6 +531,9 @@ a {
 }
 
 @media all and (max-width: 1024px) {
+  .container {
+    max-width: 946px;
+  }
   .footer {
     height: 284px;
     padding: 50px 0px 50px 0px;
