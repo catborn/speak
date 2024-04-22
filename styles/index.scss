@@ -254,6 +254,39 @@ a {
   background-color: transparent;
 }
 
+.reviews h2 {
+  padding: 2%;
+}
+
+.reviews__slider {
+  display: flex;
+  justify-content: flex-start;
+  margin: 15px;
+}
+
+.review__slide {
+  display: flex;
+  width: fit-content;
+  margin-right: 3%;
+}
+
+.review__img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 24px;
+}
+
+.review__info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 7px;
+}
+
+.review__text {
+  line-height: 1.5;
+}
+
 .download__screen-img {
   max-width: 450px;
   max-height: 500px;
@@ -314,9 +347,6 @@ a {
   grid-row: 1/6;
 }
 
-// part 3 reviews
-
-// end part3
 .part4 {
   display: grid;
 }
@@ -641,7 +671,6 @@ a {
 }
 
 @media all and (max-width: 1024px) {
-
   .container {
     max-width: 946px;
   }
@@ -677,7 +706,6 @@ a {
 }
 
 @media all and (max-width: 768px) {
-
   .container {
     max-width: 688px;
   }
@@ -789,7 +817,6 @@ a {
 }
 
 @media all and (max-width: 360px) {
-
   .container {
     max-width: 320px;
   }
