@@ -641,6 +641,7 @@ a {
 }
 
 @media all and (max-width: 1024px) {
+
   .container {
     max-width: 946px;
   }
@@ -676,6 +677,7 @@ a {
 }
 
 @media all and (max-width: 768px) {
+
   .container {
     max-width: 688px;
   }
@@ -732,10 +734,22 @@ a {
     font-size: 32px;
   }
 
+  .header__main-info {
+    padding-top: 0;
+  }
+
+  .header__main-btn {
+    margin-top: 0;
+  }
+
   .download {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .download__video-tag {
+    width: 450px;
   }
 
   .download__extra {
@@ -775,6 +789,7 @@ a {
 }
 
 @media all and (max-width: 360px) {
+
   .container {
     max-width: 320px;
   }
@@ -785,10 +800,23 @@ a {
     align-items: center;
   }
 
+  .header__adaptive-btn {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+
   .download__extra {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+  }
+
+  .download__video-tag {
+    width: 300px;
+  }
+
+  .download__info {
+    margin: 0 auto;
   }
 
   .article__title {

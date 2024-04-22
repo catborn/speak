@@ -1,7 +1,46 @@
-
-
 @charset "UTF-8";
-
+@font-face {
+  font-family: "Inter-Light";
+  src: url("../fonts/Inter-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("../fonts/Inter-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("../fonts/Inter-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../fonts/Inter-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url("../fonts/Inter-ExtraBold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 @font-face {
   font-family: "Inter-Light";
   src: url("../fonts/Inter-Light.woff2") format("woff2");
@@ -414,7 +453,7 @@ a {
   font-family: "Inter-Regular";
   font-size: 48px;
   font-weight: 900;
-  color: #FFA800;
+  color: #ffa800;
 }
 
 .card_text {
@@ -522,8 +561,8 @@ a {
   font-weight: 800;
   padding: 15px 25px 15px 25px;
   border-radius: 15px;
-  border-color: #00B9B6;
-  color: #00B9B6;
+  border-color: #00b9b6;
+  color: #00b9b6;
   background-color: white;
 }
 
@@ -550,9 +589,7 @@ a {
 .services__card2 {
   grid-row: 2/3;
   grid-column: 2/3;
-
   font-family: "Inter-Regular";
-
 }
 
 .article__title {
@@ -705,7 +742,8 @@ a {
   .container {
     max-width: 688px;
   }
-  .nav__list, .header__act {
+  .nav__list,
+  .header__act {
     display: none;
   }
   .nav {
@@ -746,10 +784,19 @@ a {
   .header__main-title {
     font-size: 32px;
   }
+  .header__main-info {
+    padding-top: 0;
+  }
+  .header__main-btn {
+    margin-top: 0;
+  }
   .download {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .download__video-tag {
+    width: 450px;
   }
   .download__extra {
     display: grid;
@@ -791,10 +838,20 @@ a {
     flex-direction: column;
     align-items: center;
   }
+  .header__adaptive-btn {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
   .download__extra {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+  }
+  .download__video-tag {
+    width: 300px;
+  }
+  .download__info {
+    margin: 0 auto;
   }
   .article__title {
     margin-bottom: 30px;
@@ -831,5 +888,4 @@ a {
     text-align: left;
     line-height: 21px;
   }
-
 }/*# sourceMappingURL=index.css.map */
