@@ -914,6 +914,12 @@ a {
   .download__info {
     margin: 0 auto;
   }
+  .psy__slide:nth-child(n+2) {
+    display: none;
+  }
+  .review__slide:last-child {
+    display: none;
+  }
   .article__title {
     margin-bottom: 30px;
     font-size: 24px;
