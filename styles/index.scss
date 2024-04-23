@@ -336,7 +336,7 @@ a {
 .aboutService__title {
   grid-row: 1/2;
   grid-column: 1/4;
-  font-family: "Inter-Regular";
+  font-family: "Inter-Bold";
   font-size: 36px;
   font-weight: 900;
   text-align: center;
@@ -380,7 +380,7 @@ a {
 }
 
 .card_figure {
-  font-family: "Inter-Regular";
+  font-family: "Inter-Bold";
   font-size: 48px;
   font-weight: 900;
   color: #FFA800;
@@ -428,59 +428,94 @@ a {
 
 .howitWorks {
   display: grid;
+  margin-top: 20vh;
+  margin-bottom: 10vh;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 3fr 4fr 1fr;
-  font-family: "Inter-Regular";
 }
 
 .howitWorks__title {
   grid-row: 1/2;
   grid-column: 1/4;
   font-size: 36px;
-  font-family: "Inter-Regular";
+  font-family: "Inter-Bold";
   font-weight: 900;
   text-align: center;
 }
 
 .howitWorks__card1 {
+  display: grid;
   grid-row: 2/3;
   grid-column: 1/2;
+  grid-template-columns: 40px 1fr;
+  grid-template-rows: 40px 1fr;
   font-family: "Inter-Regular";
 }
 
 .howitWorks__card2 {
+  display: grid;
   grid-row: 2/3;
   grid-column: 3/4;
+  grid-template-columns: 40px 1fr;
+  grid-template-rows: 40px 1fr;
   font-family: "Inter-Regular";
 }
 
 .howitWorks__card3 {
+  display: grid;
   grid-row: 3/4;
   grid-column: 1/2;
+  grid-template-columns: 40px 1fr;
+  grid-template-rows: 40px 1fr;
   font-family: "Inter-Regular";
 }
 
 .howitWorks__card4 {
+  display: grid;
   grid-row: 3/4;
   grid-column: 3/4;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: 60px 1fr;
   font-family: "Inter-Regular";
 }
 
+.card_logo {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  align-self: center;
+}
+
 .card_title {
-  font-family: "Inter-Regular";
+  grid-row: 1/2;
+  grid-column: 2/3;
+  align-self: center;
+  margin-left: 1%;
+  font-family: "Inter-Bold";
   font-size: 20px;
   font-weight: 900;
 }
 
 .card_text {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  margin-left: 1%;
   font-family: "Inter-Regular";
   font-size: 18px;
+}
+
+.textMargin {
+  margin-top: 20px;
+}
+
+.color {
+  color: $infoText;
+  white-space: nowrap;
 }
 
 .howitWorks__photo {
   grid-row: 2/4;
   grid-column: 2/3;
-  align-content: center;
+  align-self: center;
 }
 
 .howitWorks__button {
@@ -496,41 +531,85 @@ a {
   padding: 15px 25px 15px 25px;
   border-radius: 15px;
   border-color: #00B9B6;
+  border-style: solid;
   color: #00B9B6;
   background-color: white;
 }
 
 .services {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 2fr 20px 3fr;
   grid-template-rows: 1fr 4fr;
 }
 
 .services__title {
   grid-row: 1/2;
   grid-column: 1/3;
-  font-family: "Inter-Regular";
+  padding-bottom: 7vh;
+  font-family: "Inter-Bold";
   font-size: 36px;
   font-weight: 900;
 }
 
 .services__card1 {
+  display: grid;
   grid-row: 2/3;
   grid-column: 1/2;
+  height: 320px;
+  border-radius: 24px;
+  background-color: #00b9b613;
   font-family: "Inter-Regular";
 }
 
 .services__card2 {
+  display: grid;
   grid-row: 2/3;
-  grid-column: 2/3;
-
+  grid-column: 3/4;
+  height: 360px;
+  border-radius: 24px;
+  background-color: #00B9B6;
+  color: white;
   font-family: "Inter-Regular";
 }
 
+.services__card_miniTitle {
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: "Inter-Bold";
+  font-size: 20px;
+}
+
+.services__card_title {
+  padding-left: 30px;
+  font-family: "Inter-Bold";
+  font-size: 56px;
+}
+
+.card_titleTime {
+  font-family: "Inter-Regular";
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.services__card_text {
+  margin-left: 30px;
 }
 
 .article__title {
   margin-bottom: 30px;
+  font-family: "Inter-Bold";
+}
+
+.pass {
+  width: 140px;
+  height: 50px;
+  margin-left: 30px;
+  border-radius: 12px;
+  border: none;
+  color: #00B9B6;
+  background-color: white;
+  font-family: "Inter-Bold";
+  font-size: 18px;
 }
 
 .container__article {
