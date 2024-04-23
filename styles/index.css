@@ -395,6 +395,11 @@ a {
   display: grid;
   grid-column: 1/2;
   max-height: 308px;
+  font-size: 18px;
+}
+
+.help__you-first h2 {
+  font-size: 36px;
 }
 
 .help__you-second {
@@ -404,27 +409,47 @@ a {
 
 .help__telephone {
   display: grid;
-  grid-template-columns: 32% 68%;
-  grid-template-rows: 71px 50px 353px 66px 50px;
-  margin-top: 140px;
+  grid-template-columns: 34% 66%;
+  margin-top: 160px;
+  background-color: rgba(0, 185, 182, 0.1);
+  border-radius: 5%;
+  max-height: 519px;
 }
 
 .help__telephone-first {
   display: grid;
   grid-column: 1/2;
-  grid-row: 1/5;
+  margin-bottom: 200px;
+  margin-left: 45px;
 }
 
 .help__telephone-second {
   display: grid;
   grid-column: 2/3;
-  grid-row: 3/4;
+  max-width: 710px;
+  max-height: 353px;
+  margin-top: 50px;
+  font-size: 18px;
 }
 
-#help__background {
+.help__telephone-second h2 {
+  font-size: 36px;
+}
+
+.help__profi {
   display: grid;
-  grid-column: 1/3;
-  grid-row: 1/6;
+  grid-template-columns: 64% 36%;
+  margin-top: 140px;
+}
+
+.help__profi-first {
+  display: grid;
+  grid-column: 1/2;
+}
+
+.help__profi-second {
+  display: grid;
+  grid-column: 2/3;
 }
 
 .part4 {
