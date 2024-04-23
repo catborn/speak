@@ -278,6 +278,7 @@ a {
 .psy__tags2 {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 10px;
 }
 
@@ -306,6 +307,7 @@ a {
 .psy__slider {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin: 15px;
 }
 

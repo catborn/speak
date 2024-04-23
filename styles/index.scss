@@ -197,6 +197,7 @@ a {
 .psy__tags2 {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 10px;
 }
 
@@ -225,6 +226,7 @@ a {
 .psy__slider {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin: 15px;
 }
 
@@ -286,7 +288,7 @@ a {
 .review__text {
   line-height: 1.5;
 }
-
+//end part 3
 .download__screen-img {
   max-width: 450px;
   max-height: 500px;
@@ -309,7 +311,6 @@ a {
   display: grid;
   grid-template-columns: 60% 40%;
   margin-top: 158px;
-  
 }
 
 .help__you-first {
