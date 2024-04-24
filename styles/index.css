@@ -665,6 +665,14 @@ a {
   background-color: white;
 }
 
+.button_start:hover {
+  background-color: #dadada;
+}
+
+.button_start:active {
+  background-color: #dadada;
+}
+
 .services {
   display: grid;
   grid-template-columns: 2fr 20px 3fr;
@@ -768,6 +776,14 @@ a {
   background-color: white;
   font-family: "Inter-Bold";
   font-size: 18px;
+}
+
+.pass:hover {
+  background-color: #dadada;
+}
+
+.pass:active {
+  background-color: #dadada;
 }
 
 .container__article {
