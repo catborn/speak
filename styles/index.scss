@@ -193,8 +193,7 @@ a {
   text-align: center;
   padding: 2%;
 }
-.psy__tags1,
-.psy__tags2 {
+.psy__tags {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -241,8 +240,22 @@ a {
   border-radius: 12px;
 }
 
+.psy__img:hover {
+  transform: scale(1.1);
+}
+
+.psy__star:hover {
+  transform: scale(1.7);
+}
+
 .slide__right {
+  background-color: transparent;
   padding-left: 90px;
+  border: 0;
+}
+
+.slide__right:hover {
+  transform: scale(1.2);
 }
 
 .psy__dots {
@@ -254,6 +267,10 @@ a {
   border: 0;
   padding: 5px;
   background-color: transparent;
+}
+
+.button__dot:hover {
+  transform: scale(1.1);
 }
 
 .reviews h2 {
@@ -277,6 +294,10 @@ a {
   height: 100px;
   margin: 10px;
   border-radius: 24px;
+}
+
+.review__star:hover {
+  transform: scale(0.7);
 }
 
 .review__info {
@@ -585,9 +606,9 @@ a {
   font-weight: 800;
   padding: 15px 25px 15px 25px;
   border-radius: 15px;
-  border-color: #00B9B6;
+  border-color: #00b9b6;
   border-style: solid;
-  color: #00B9B6;
+  color: #00b9b6;
   border-color: #00b9b6;
   color: #00b9b6;
   background-color: white;
@@ -624,7 +645,7 @@ a {
   grid-column: 3/4;
   height: 360px;
   border-radius: 24px;
-  background-color: #00B9B6;
+  background-color: #00b9b6;
   color: white;
   font-family: "Inter-Regular";
 }
@@ -662,7 +683,7 @@ a {
   margin-left: 30px;
   border-radius: 12px;
   border: none;
-  color: #00B9B6;
+  color: #00b9b6;
   background-color: white;
   font-family: "Inter-Bold";
   font-size: 18px;

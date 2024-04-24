@@ -42,6 +42,13 @@
   font-display: swap;
 }
 @font-face {
+  font-family: "Inter-Light";
+  src: url("../fonts/Inter-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: "Inter-Regular";
   src: url("../fonts/Inter-Regular.woff2") format("woff2");
   font-weight: normal;
@@ -267,8 +274,7 @@ a {
   padding: 2%;
 }
 
-.psy__tags1,
-.psy__tags2 {
+.psy__tags {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -315,8 +321,22 @@ a {
   border-radius: 12px;
 }
 
+.psy__img:hover {
+  transform: scale(1.1);
+}
+
+.psy__star:hover {
+  transform: scale(1.7);
+}
+
 .slide__right {
+  background-color: transparent;
   padding-left: 90px;
+  border: 0;
+}
+
+.slide__right:hover {
+  transform: scale(1.2);
 }
 
 .psy__dots {
@@ -328,6 +348,10 @@ a {
   border: 0;
   padding: 5px;
   background-color: transparent;
+}
+
+.button__dot:hover {
+  transform: scale(1.1);
 }
 
 .reviews h2 {
@@ -352,6 +376,10 @@ a {
   height: 100px;
   margin: 10px;
   border-radius: 24px;
+}
+
+.review__star:hover {
+  transform: scale(0.7);
 }
 
 .review__info {
@@ -453,7 +481,7 @@ a {
 
 .aboutService {
   display: grid;
-  grid-template-columns: 4fr 1fr 3fr;
+  grid-template-columns: 5fr 2fr 3fr;
   grid-template-rows: 1fr 7fr 2fr;
 }
 
@@ -650,12 +678,12 @@ a {
   font-weight: 800;
   padding: 15px 25px 15px 25px;
   border-radius: 15px;
-  border-color: #00B9B6;
+  border-color: #00b9b6;
   border-style: solid;
-  color: #00B9B6;
-  //border-color: #00b9b6;
-  //color: #00b9b6;
-  //background-color: white;
+  color: #00b9b6;
+  border-color: #00b9b6;
+  color: #00b9b6;
+  background-color: white;
 }
 
 .services {
@@ -689,7 +717,7 @@ a {
   grid-column: 3/4;
   height: 360px;
   border-radius: 24px;
-  background-color: #00B9B6;
+  background-color: #00b9b6;
   color: white;
   font-family: "Inter-Regular";
 }
@@ -715,8 +743,6 @@ a {
 
 .services__card_text {
   margin-left: 30px;
-  grid-column: 2/3;
-  font-family: "Inter-Regular";
 }
 
 .article__title {
@@ -730,7 +756,7 @@ a {
   margin-left: 30px;
   border-radius: 12px;
   border: none;
-  color: #00B9B6;
+  color: #00b9b6;
   background-color: white;
   font-family: "Inter-Bold";
   font-size: 18px;
