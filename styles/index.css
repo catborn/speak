@@ -42,6 +42,13 @@
   font-display: swap;
 }
 @font-face {
+  font-family: "Inter-Light";
+  src: url("../fonts/Inter-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: "Inter-Regular";
   src: url("../fonts/Inter-Regular.woff2") format("woff2");
   font-weight: normal;
@@ -453,7 +460,7 @@ a {
 
 .aboutService {
   display: grid;
-  grid-template-columns: 4fr 1fr 3fr;
+  grid-template-columns: 5fr 2fr 3fr;
   grid-template-rows: 1fr 7fr 2fr;
 }
 
@@ -653,9 +660,9 @@ a {
   border-color: #00B9B6;
   border-style: solid;
   color: #00B9B6;
-  //border-color: #00b9b6;
-  //color: #00b9b6;
-  //background-color: white;
+  border-color: #00b9b6;
+  color: #00b9b6;
+  background-color: white;
 }
 
 .services {
@@ -694,11 +701,19 @@ a {
   font-family: "Inter-Regular";
 }
 
+.services__card_tag {
+  justify-self: end;
+  height: 37px;
+}
+
 .services__card_miniTitle {
-  padding-top: 30px;
   padding-left: 30px;
   font-family: "Inter-Bold";
   font-size: 20px;
+}
+
+.services__card_miniTitle1 {
+  padding-top: 30px;
 }
 
 .services__card_title {
@@ -713,10 +728,17 @@ a {
   white-space: nowrap;
 }
 
-.services__card_text {
+.positioncard {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+}
+
+.services__card_img {
   margin-left: 30px;
-  grid-column: 2/3;
-  font-family: "Inter-Regular";
+}
+
+.services__card_text {
+  margin-top: 5px;
 }
 
 .article__title {
@@ -724,10 +746,22 @@ a {
   font-family: "Inter-Bold";
 }
 
+.services__card_button {
+  display: grid;
+  grid-template-columns: 1fr 170px;
+  align-self: center;
+  margin-left: 30px;
+  height: 80px;
+}
+
+.services__card_input {
+  margin-right: 20px;
+}
+
 .pass {
   width: 140px;
   height: 50px;
-  margin-left: 30px;
+  margin-bottom: 30px;
   border-radius: 12px;
   border: none;
   color: #00B9B6;
