@@ -305,12 +305,16 @@ a {
 .psy__slider {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin: 15px;
 }
 
 .psy__slide {
   font-family: "Inter-Bold", sans-serif;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 5px;
+  margin: 3px;
 }
 
 .psy__img {
@@ -368,6 +372,9 @@ a {
   width: -moz-fit-content;
   width: fit-content;
   margin-right: 3%;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 5px;
 }
 
 .review__img {
