@@ -731,9 +731,10 @@ a {
 
 .services__card_input {
   margin-right: 20px;
+  grid-column: 1/2;
 }
 
-.services__card_numMob {
+.input-mob {
   display: none;
 }
 
