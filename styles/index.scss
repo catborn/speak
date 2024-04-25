@@ -46,7 +46,6 @@ a {
   max-width: 1120px;
   margin: 0 auto;
   padding-left: 2%;
-  // padding-right: 2%;
 }
 
 .nav {
@@ -181,7 +180,6 @@ a {
 
 .download__links {
   display: flex;
-  gap: 20px;
 }
 
 .header__adaptive {
@@ -193,8 +191,7 @@ a {
   text-align: center;
   padding: 2%;
 }
-.psy__tags1,
-.psy__tags2 {
+.psy__tags {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -241,8 +238,22 @@ a {
   border-radius: 12px;
 }
 
+.psy__img:hover {
+  transform: scale(1.1);
+}
+
+.psy__star:hover {
+  transform: scale(1.7);
+}
+
 .slide__right {
+  background-color: transparent;
   padding-left: 90px;
+  border: 0;
+}
+
+.slide__right:hover {
+  transform: scale(1.1);
 }
 
 .psy__dots {
@@ -254,6 +265,10 @@ a {
   border: 0;
   padding: 5px;
   background-color: transparent;
+}
+
+.button__dot:hover {
+  transform: scale(1.1);
 }
 
 .reviews h2 {
@@ -277,6 +292,14 @@ a {
   height: 100px;
   margin: 10px;
   border-radius: 24px;
+}
+
+.review__img:hover {
+  transform: scale(1.1);
+}
+
+.review__star:hover {
+  transform: scale(0.7);
 }
 
 .review__info {
@@ -376,6 +399,7 @@ a {
 
 .part4 {
   display: grid;
+  margin-top: 20vh;
 }
 
 .aboutService {
@@ -585,9 +609,9 @@ a {
   font-weight: 800;
   padding: 15px 25px 15px 25px;
   border-radius: 15px;
-  border-color: #00B9B6;
+  border-color: #00b9b6;
   border-style: solid;
-  color: #00B9B6;
+  color: #00b9b6;
   border-color: #00b9b6;
   color: #00b9b6;
   background-color: white;
@@ -621,6 +645,7 @@ a {
   grid-row: 2/3;
   grid-column: 1/2;
   height: 320px;
+  margin-top: 20px;
   border-radius: 24px;
   background-color: #00b9b613;
   font-family: "Inter-Regular";
@@ -632,7 +657,7 @@ a {
   grid-column: 3/4;
   height: 360px;
   border-radius: 24px;
-  background-color: #00B9B6;
+  background-color: #00b9b6;
   color: white;
   font-family: "Inter-Regular";
 }
@@ -700,7 +725,7 @@ a {
   margin-bottom: 30px;
   border-radius: 12px;
   border: none;
-  color: #00B9B6;
+  color: #00b9b6;
   background-color: white;
   font-family: "Inter-Bold";
   font-size: 18px;
@@ -753,11 +778,9 @@ a {
 }
 
 .container__footer {
-  margin: 0px 10% 0px 10%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  max-width: 1236px;
   color: #333333;
   font-family: "Inter-Medium";
   font-size: 18px;
@@ -823,6 +846,10 @@ a {
 
 .footer__contacts-img {
   margin-right: 6px;
+}
+
+.footer__menu-link:hover {
+  color: $infoText;
 }
 
 @media all and (max-width: 1024px) {
@@ -987,6 +1014,10 @@ a {
     font-size: 12px;
   }
 
+  .header__main-pic {
+    margin-top: 20px;
+  }
+
   .download__extra {
     display: flex;
     flex-direction: column-reverse;
@@ -999,6 +1030,11 @@ a {
 
   .download__info {
     margin: 0 auto;
+  }
+
+  .download__links-ios,
+  .download__links-android {
+    max-width: 150px;
   }
 
   .psy__slide:nth-child(n + 2) {
