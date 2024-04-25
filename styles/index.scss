@@ -624,6 +624,7 @@ a {
 .button_start:active {
   background-color: #dadada;
 }
+
 .services {
   display: grid;
   grid-template-columns: 2fr 20px 3fr;
@@ -698,8 +699,9 @@ a {
 }
 
 .services__card_text {
-  margin-left: 5px;
+  margin-top: 5px;
 }
+
 .article__title {
   margin-bottom: 30px;
   font-family: "Inter-Bold";
@@ -720,7 +722,7 @@ a {
 .pass {
   width: 140px;
   height: 50px;
-  margin-left: 30px;
+  margin-bottom: 30px;
   border-radius: 12px;
   border: none;
   color: #00b9b6;
