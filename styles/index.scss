@@ -1096,6 +1096,10 @@ a {
     line-height: 21px;
   }
 
+  .part4 {
+    max-width: 320px;
+  }
+
   .aboutService {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1316,22 +1320,31 @@ a {
   
   .services__card1 {
     grid-row: 3/4;
-    height: 300px;
+    height: 280px;
     border-radius: 24px;
   }
   
   .services__card2 {
     grid-row: 2/3;
     grid-column: 1/2;
-    height: 470px;
+    height: 430px;
     margin-bottom: 4vh;
     border-radius: 24px;
   }
   
+  .card_tag {
+    width: 125px;
+    height: 25px;
+  }
+
   .services__card_miniTitle {
-    padding-top: 20px;
+    padding-top: 0;
     padding-left: 20px;
     font-size: 20px;
+  }
+
+  .services__card_miniTitle1 {
+    padding-top: 20px;
   }
   
   .services__card_title {
@@ -1344,19 +1357,48 @@ a {
   }
   
   .services__card_text {
-    margin-left: 20px;
+    margin-left: 15px;
   } 
+
+  .services__card_input {
+    display: none;
+  }
+
+  .services__card_button {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-self: center;
+    margin-left: 20px;
+    height: auto;
+    width: auto;
+  }
+
+  .positioncard {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+  }
+
+  .services__card_img {
+    margin-left: 20px;
+  }
 
   .services__card_numMob {
     display: grid;
     margin-left: 20px;
   }
+
+  .input-mob {
+    width: 90vw;
+    margin-bottom: 2vh;
+  }
   
   .pass {
-    width: 280px;
+    width: 90vw;
     height: 50px;
-    margin-left: 20px;
+    margin-left: 0;
     margin-right: 20px;
+    margin-bottom: 10px;
     border-radius: 12px;
     font-family: "Inter-SemiBold";
   }
