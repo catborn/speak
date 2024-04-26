@@ -735,9 +735,12 @@ a {
 
 .services__card_input {
   margin-right: 20px;
+  grid-column: 1/2;
 }
 
-.services__card_input-mob {
+
+.input-mob {
+
   display: none;
 } 
 
@@ -909,7 +912,7 @@ a {
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 868px) {
   .container {
     max-width: 688px;
   }
@@ -1266,9 +1269,9 @@ a {
   }
 }
 
-@media all and (max-width: 360px) {
+@media all and (max-width: 450px) {
   .container {
-    max-width: 320px;
+    max-width: 420px;
   }
 
   .header__main {
@@ -1354,7 +1357,7 @@ a {
   }
 
   .part4 {
-    max-width: 320px;
+    max-width: 95vw;
   }
 
   .aboutService {
@@ -1377,8 +1380,8 @@ a {
   }
   
   .video-tag {
-    width:320px;
-    height: 178px;
+    width:95vw;
+    height: auto;
   }
   
   .aboutService__text {
@@ -1555,7 +1558,7 @@ a {
   }
   
   .button_start {
-    width: 210px;
+    width: 100%;
     height: 50px;
     font-family: "Inter-Bold";
     font-size: 18px;
@@ -1578,20 +1581,30 @@ a {
   .services__card1 {
     grid-row: 3/4;
     height: 280px;
+    max-width: 419px;
+    width: 90vw;
     border-radius: 24px;
   }
   
   .services__card2 {
     grid-row: 2/3;
     grid-column: 1/2;
-    height: 430px;
+    height: 400px;
+    max-width: 419px;
+    width: 90vw;
     margin-bottom: 4vh;
     border-radius: 24px;
   }
   
+  .services__card_tag {
+    display: grid;
+    justify-content: end;
+  }
+
   .card_tag {
-    width: 125px;
-    height: 25px;
+    width: 90%;
+    height: auto;
+    justify-self: end;
   }
 
   .services__card_miniTitle {
@@ -1646,12 +1659,12 @@ a {
   }
 
   .input-mob {
-    width: 90vw;
+    width: 93%;
     margin-bottom: 2vh;
   }
   
   .pass {
-    width: 90vw;
+    width: 93%;
     height: 50px;
     margin-left: 0;
     margin-right: 20px;

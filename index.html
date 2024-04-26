@@ -16,9 +16,9 @@
       <nav class="nav">
         <img class="header__logo" src="./images/logo.svg" alt="logo">
         <ul class="nav__list">
-          <li class="nav__list-item"><a href="#" class="nav__list-item">About us</a></li>
-          <li class="nav__list-item"><a href="#" class="nav__list-item">Blog</a></li>
-          <li class="nav__list-item"><a href="#" class="nav__list-item">Contact</a></li>
+          <li class="nav__list-item"><a href="#aboutus" class="nav__list-item">About us</a></li>
+          <li class="nav__list-item"><a href="#blog" class="nav__list-item">Blog</a></li>
+          <li class="nav__list-item"><a href="#footer" class="nav__list-item">Contact</a></li>
         </ul>
         <div class="header__act">
           <div class="header__act-language">
@@ -82,7 +82,7 @@
       </section>
 
       <div class="psy">
-        <h2>Психологи работающие с актуальными темами</h2>
+        <h2 id="aboutus">Психологи работающие с актуальными темами</h2>
         <div class="psy__tags">
           <button class="psy__buttons">Чувства</button>
           <button class="psy__buttons">Одиночество</button>
@@ -263,7 +263,7 @@
           </div>
         </div>
         <div class="howitWorks">
-          <div class="howitWorks__title">Как это устроено</div>
+          <div class="howitWorks__title" id="blog">Как это устроено</div>
           <div class="howitWorks__card1">
             <div class="card_logo"><img src="./images/num1.png" alt="num1"></div>
             <div class="card_title">Заполните простую анкету</div>
@@ -310,6 +310,7 @@
               </div>
               <div class="services__card_button"><button class="pass">Перейти</button></div>
             </div>
+
             <div class="services__card2">
               <div class="services__card_tag"><img src="./images/popular.png" alt="popular" class="card_tag"></div>
               <div class="services__card_miniTitle">Аудио/Видео сессии</div>
@@ -327,6 +328,7 @@
                 <div class="services__card_input"><img src="./images/input_num.png" alt="input_num" class="card-input"></div>
                 <div><button class="pass">Перейти</button></div>
               </div>
+
             </div>
           </div>
         </div>
@@ -512,7 +514,7 @@
       </div>
     </main>
   </div>
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="container__footer container">
       <div class="footer__section">
         <div class="footer__title"> <img src="./images/logo.svg" alt="logo"></div>
@@ -520,10 +522,10 @@
       <div class="footer__section">
         <ul class="footer__menu">
           <li class="footer__menu-link"><a class="link" href="#">Home</a></li>
-          <li class="footer__menu-link"><a class="link" href="#">Blog</a></li>
+          <li class="footer__menu-link"><a class="link" href="#blog">Blog</a></li>
           <li class="footer__menu-link"><a class="link" href="#">Privacy Policy</a></li>
-          <li class="footer__menu-link"><a class="link" href="#">About us</a></li>
-          <li class="footer__menu-link"><a class="link" href="#">Contact</a></li>
+          <li class="footer__menu-link"><a class="link" href="#aboutus">About us</a></li>
+          <li class="footer__menu-link"><a class="link" href="#footer">Contact</a></li>
           <li class="footer__menu-link"><a class="link" href="#">Terms and Conditions</a></li>
         </ul>
       </div>
