@@ -1473,6 +1473,28 @@ a {
     max-width: 150px;
   }
 
+  .psy__slider {
+    padding: 15px;
+  }
+
+  .psy__img {
+    display: flex;
+    width: 290px;
+    height: 290px;
+    border-radius: 12px;
+    padding: 15px;
+  }
+
+  .psy__star {
+    padding-left: 10px;
+    transform: scale(1.7);
+  }
+
+  .slide__right {
+    padding-left: 170px;
+    margin: 10px;
+  }
+
   .psy__slide:nth-child(n + 2) {
     display: none;
   }
