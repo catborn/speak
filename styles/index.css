@@ -1035,6 +1035,45 @@ a {
     max-width: 380px;
     max-height: 416px;
   }
+  .psy__buttons {
+    display: none;
+  }
+  .psy__1024px-first {
+    display: flex;
+    justify-content: space-evenly;
+    height: 28px;
+  }
+  .psy__1024px-second {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 28px;
+  }
+  #more {
+    display: inline;
+  }
+  .psy__slider {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 5px;
+  }
+  .psy__slide {
+    margin-left: 15px;
+  }
+  .psy__img {
+    display: flex;
+    width: 142px;
+    height: 142px;
+    border-radius: 12px;
+  }
+  .psy__img:hover {
+    transform: none;
+  }
+  .slide__right {
+    padding-left: 50px;
+  }
   .footer {
     height: 284px;
     padding: 50px 0px 50px 0px;
@@ -1059,7 +1098,7 @@ a {
     margin-top: 50px;
   }
 }
-@media all and (max-width: 868px) {
+@media all and (max-width: 768px) {
   .container {
     max-width: 688px;
   }
@@ -1136,6 +1175,18 @@ a {
     margin-bottom: 120px;
     -moz-column-count: 1;
          column-count: 1;
+  }
+  .psy__slide-768px {
+    display: none;
+  }
+  .psy__img {
+    display: flex;
+    width: 127px;
+    height: 127px;
+    border-radius: 12px;
+  }
+  .slide__right {
+    padding-left: 25px;
   }
   .footer {
     height: 428px;
@@ -1403,6 +1454,51 @@ a {
   .download__links-ios,
   .download__links-android {
     max-width: 150px;
+  }
+  .psy__buttons {
+    display: none;
+  }
+  .psy__450px1 {
+    display: flex;
+    height: 28px;
+  }
+  .psy__450px2 {
+    display: flex;
+    height: 28px;
+  }
+  .psy__450px3 {
+    display: flex;
+    height: 28px;
+  }
+  .psy__450px4 {
+    display: flex;
+    height: 28px;
+  }
+  .psy__450px5 {
+    display: flex;
+    height: 28px;
+  }
+  .psy__450px6 {
+    display: flex;
+    height: 28px;
+  }
+  .psy__slider {
+    padding: 15px;
+  }
+  .psy__img {
+    display: flex;
+    width: 290px;
+    height: 290px;
+    border-radius: 12px;
+    padding: 15px;
+  }
+  .psy__star {
+    padding-left: 10px;
+    transform: scale(1.7);
+  }
+  .slide__right {
+    padding-left: 170px;
+    margin: 10px;
   }
   .psy__slide:nth-child(n+2) {
     display: none;
