@@ -962,6 +962,27 @@ a {
     max-height: 416px;
   }
 
+  .psy__buttons {
+    display: none;
+  }
+
+  .psy__1024px-first {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .psy__1024px-second {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #more {
+    display: inline;
+  }
+
   .psy__slider {
     display: flex;
     justify-content: center;
