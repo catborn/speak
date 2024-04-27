@@ -1176,6 +1176,18 @@ a {
     -moz-column-count: 1;
          column-count: 1;
   }
+  .psy__slide-868px {
+    display: none;
+  }
+  .psy__img {
+    display: flex;
+    width: 127px;
+    height: 127px;
+    border-radius: 12px;
+  }
+  .slide__right {
+    padding-left: 25px;
+  }
   .footer {
     height: 428px;
     padding: 50px 0px 50px 0px;
