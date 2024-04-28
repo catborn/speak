@@ -1,5 +1,7 @@
 # speak
 
+Find your amazing psychologist. Relax and be calm 🙌
+
 https://catborn.github.io/speak/
 
 ![catborn github io_speak](https://github.com/catborn/speak/assets/158094798/7671866e-fced-4cf1-b15b-e288485aaa5d)
