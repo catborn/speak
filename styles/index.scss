@@ -45,7 +45,7 @@ a {
 .container {
   max-width: 1120px;
   margin: 0 auto;
-  padding-left: 2%;
+  padding-left: 10%;
   padding-right: 2%;
 }
 
@@ -945,6 +945,7 @@ a {
 @media all and (max-width: 1024px) {
   .container {
     max-width: 946px;
+    padding-left: 2%;
   }
 
   .download__video-tag {
@@ -1037,6 +1038,7 @@ a {
 @media all and (max-width: 768px) {
   .container {
     max-width: 688px;
+    padding-left: 2%;
   }
 
   .nav__list,
@@ -1431,6 +1433,7 @@ a {
 @media all and (max-width: 450px) {
   .container {
     max-width: 420px;
+    padding-left: 2%;
   }
 
   .header__main {
