@@ -1902,10 +1902,13 @@ a {
     width: 230px;
   }
 }
+.footer {
+  background-color: #ffffff;
+}
 
-/*# sourceMappingURL=index.css.map */
-
-  .footer {
-    background-color: #ffffff;
+@media all and (max-width: 370px) {
+  .review__360px {
+    display: none;
   }
-}/*# sourceMappingURL=index.css.map */
+}
+/*# sourceMappingURL=index.css.map */
