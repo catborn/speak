@@ -1199,6 +1199,9 @@ a {
   .slide__right {
     padding-left: 25px;
   }
+  .review__slide:last-child {
+    display: none;
+  }
   .footer {
     height: 428px;
     padding: 50px 0px 50px 0px;
