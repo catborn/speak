@@ -67,7 +67,7 @@ a {
 }
 
 .nav__list-item:hover {
-  color: #00b9b6;
+  color: $infoText;
 }
 
 .header__act {
@@ -96,11 +96,11 @@ a {
 }
 
 .header__btn:hover {
-  background-color: #00b9b6;
+  background-color: $infoText;
 }
 
 .header__btn:active {
-  background-color: #00b9b6;
+  background-color: $infoText;
 }
 
 .header__registration {
@@ -535,7 +535,7 @@ a {
   font-family: "Inter-Bold";
   font-size: 48px;
   font-weight: 900;
-  color: #ffa800;
+  color: $cardColor;
 }
 
 .card_text {
@@ -690,20 +690,18 @@ a {
   font-weight: 800;
   padding: 15px 25px 15px 25px;
   border-radius: 15px;
-  border-color: #00b9b6;
+  border-color: $infoText;
   border-style: solid;
-  color: #00b9b6;
-  border-color: #00b9b6;
-  color: #00b9b6;
-  background-color: white;
+  color: $infoText;
+  background-color: $mainColor;
 }
 
 .button_start:hover {
-  background-color: #dadada;
+  background-color: $buttonStartColor;
 }
 
 .button_start:active {
-  background-color: #dadada;
+  background-color: $buttonStartColor;
 }
 
 .services {
@@ -733,7 +731,7 @@ a {
   grid-column: 1/2;
   height: 80%;
   border-radius: 24px;
-  background-color: #00b9b613;
+  background-color: $servicesColor;
   font-family: "Inter-Regular";
 }
 
@@ -742,8 +740,8 @@ a {
   grid-column: 3/4;
   height: 100%;
   border-radius: 24px;
-  background-color: #00b9b6;
-  color: white;
+  background-color: $infoText;
+  color: $mainColor;
   font-family: "Inter-Regular";
 }
 
@@ -815,18 +813,18 @@ a {
   margin-bottom: 30px;
   border-radius: 12px;
   border: none;
-  color: #00b9b6;
-  background-color: white;
+  color: $infoText;
+  background-color: $mainColor;
   font-family: "Inter-Bold";
   font-size: 18px;
 }
 
 .pass:hover {
-  background-color: #dadada;
+  background-color: $buttonStartColor;
 }
 
 .pass:active {
-  background-color: #dadada;
+  background-color: $buttonStartColor;
 }
 
 .container__article {
@@ -864,14 +862,14 @@ a {
   padding: 70px 0px 70px 0px;
   height: 284px;
   background-size: cover;
-  background-color: #ffffff;
+  background-color: $mainColor;
 }
 
 .container__footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  color: #333333;
+  color: $textColor;
   font-family: "Inter-Medium";
   font-size: 18px;
 }
@@ -942,10 +940,16 @@ a {
   color: $infoText;
 }
 
+@media all and (max-width:1400px) {
+  .footer {
+    background-color: transparent;
+  }
+}
+
 @media all and (max-width: 1024px) {
   .container {
     max-width: 946px;
-    padding-left: 2%;
+    padding-left: 5%;
   }
 
   .download__video-tag {
@@ -1003,6 +1007,14 @@ a {
 
   .slide__right {
     padding-left: 50px;
+  }
+
+  .card-input {
+    width: 350px;
+  }
+
+  .pass {
+    height: 40px;
   }
 
   .footer {
@@ -1987,5 +1999,9 @@ a {
 
   .help__profi-second img {
     width: 230px;
+  }
+
+  .footer {
+    background-color: $mainColor;
   }
 }
