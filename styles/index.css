@@ -128,6 +128,7 @@ a {
   max-width: 1120px;
   margin: 0 auto;
   padding-left: 2%;
+  padding-right: 2%;
 }
 
 .nav {
@@ -1433,6 +1434,10 @@ a {
     flex-direction: column;
     align-items: center;
   }
+  .header__main-info {
+    display: grid;
+    justify-items: center;
+  }
   .header__adaptive-btn {
     padding: 8px 14px;
     font-size: 12px;
@@ -1450,6 +1455,7 @@ a {
   }
   .download__info {
     margin: 0 auto;
+    padding-left: 10%;
   }
   .download__links-ios,
   .download__links-android {
