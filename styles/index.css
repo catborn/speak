@@ -1895,4 +1895,10 @@ a {
   .help__profi-second img {
     width: 230px;
   }
-} /*# sourceMappingURL=index.css.map */
+}
+@media all and (max-width: 370px) {
+  .review__360px {
+    display: none;
+  }
+}
+/*# sourceMappingURL=index.css.map */
