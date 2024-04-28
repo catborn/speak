@@ -914,9 +914,9 @@ a {
   height: -moz-max-content;
   height: max-content;
   -moz-column-count: 2;
-  column-count: 2;
+       column-count: 2;
   -moz-column-gap: 10px;
-  column-gap: 10px;
+       column-gap: 10px;
   line-height: 22px;
 }
 
@@ -1076,6 +1076,12 @@ a {
   .slide__right {
     padding-left: 50px;
   }
+  .card-input {
+    width: 350px;
+  }
+  .pass {
+    height: 40px;
+  }
   .footer {
     height: 284px;
     padding: 50px 0px 50px 0px;
@@ -1176,7 +1182,7 @@ a {
   .container__article {
     margin-bottom: 120px;
     -moz-column-count: 1;
-    column-count: 1;
+         column-count: 1;
   }
   .psy__slide-768px {
     display: none;
@@ -1189,9 +1195,6 @@ a {
   }
   .slide__right {
     padding-left: 25px;
-  }
-  .review__slide:last-child {
-    display: none;
   }
   .footer {
     height: 428px;
@@ -1512,7 +1515,7 @@ a {
     padding-left: 170px;
     margin: 10px;
   }
-  .psy__slide:nth-child(n + 2) {
+  .psy__slide:nth-child(n+2) {
     display: none;
   }
   .review__slide:last-child {
@@ -1525,7 +1528,7 @@ a {
   .container__article {
     margin-bottom: 60px;
     -moz-column-count: 1;
-    column-count: 1;
+         column-count: 1;
     font-size: 14px;
     line-height: 21px;
   }
@@ -1895,4 +1898,4 @@ a {
   .help__profi-second img {
     width: 230px;
   }
-} /*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
