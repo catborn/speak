@@ -1918,4 +1918,10 @@ a {
   .footer {
     background-color: #ffffff;
   }
-} /*# sourceMappingURL=index.css.map */
+}
+@media all and (max-width: 365px) {
+  .review__360px {
+    display: none;
+  }
+}
+/*# sourceMappingURL=index.css.map */
