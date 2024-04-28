@@ -945,7 +945,7 @@ a {
 @media all and (max-width: 1024px) {
   .container {
     max-width: 946px;
-    padding-left: 2%;
+    padding-left: 5%;
   }
 
   .download__video-tag {
@@ -1016,6 +1016,7 @@ a {
   .footer {
     height: 284px;
     padding: 50px 0px 50px 0px;
+    background-color: transparent;
   }
 
   .container__footer {
@@ -1995,5 +1996,9 @@ a {
 
   .help__profi-second img {
     width: 230px;
+  }
+
+  .footer {
+    background-color: #ffffff;
   }
 }
