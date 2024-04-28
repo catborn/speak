@@ -45,7 +45,7 @@ a {
 .container {
   max-width: 1120px;
   margin: 0 auto;
-  padding-left: 10%;
+  padding-left: 7%;
   padding-right: 2%;
 }
 
@@ -1113,8 +1113,7 @@ a {
 
   .download__extra {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-columns: 30% 70%;
     margin-top: 140px;
   }
 
